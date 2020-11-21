@@ -15,6 +15,9 @@ numero =int(numero)
 #8 x 2 = 16
 #8 x 3 =32
 ...
+
+print(f'A continuacion se muestra la tabla de multiplicar del numero {numero}')
+print(f'-----------')
 for n in range(10):
     resultado = numero * (n+1)
     print(f'{numero} x {n+1} = {resultado}')

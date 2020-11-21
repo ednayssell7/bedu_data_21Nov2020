@@ -5,9 +5,9 @@ numero = input('que numero quieres multiplicar?')
 #convertir a INT para poder multiplicar
 numero =int(numero)
 
-for n in range(10):
-    resultado = numero * (n + 1)
-    print(resultado)
+#for n in range(10):
+#    resultado = numero * (n + 1)
+#    print(resultado)
 
 #TAREA
 # imprimir resultado asi
@@ -15,4 +15,7 @@ for n in range(10):
 #8 x 2 = 16
 #8 x 3 =32
 ...
+for n in range(10):
+    resultado = numero * (n+1)
+    print(f'{numero} x {n+1} = {resultado}')
 
